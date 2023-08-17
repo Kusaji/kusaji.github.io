@@ -1,0 +1,20 @@
+.linkImage {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.portraitImage {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.gameplayImage {
+    height: 300px;
+    margin-bottom: 3px;
+}
+
+.link {
+    text-decoration: none;
+}
