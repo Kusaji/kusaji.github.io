@@ -18,3 +18,58 @@
 .link {
     text-decoration: none;
 }
+
+@media screen and (min-width: 0px) {
+    .projectText {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .projectText ul {
+        list-style: inside;
+        list-style-type: circle;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .projectText {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .projectText ul {
+        list-style: inside;
+        list-style-type: circle;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projectText {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .projectText ul {
+        list-style: inside;
+        list-style-type: circle;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .projectText {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .projectText ul {
+        list-style: inside;
+        list-style-type: circle;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .projectText {
+        text-align: left;
+        text-decoration: none;
+    }
+}
