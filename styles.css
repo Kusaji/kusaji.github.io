@@ -19,6 +19,7 @@
     text-decoration: none;
 }
 
+
 @media screen and (min-width: 0px) {
     .projectText {
         margin-top: 5px;
@@ -26,8 +27,7 @@
     }
 
     .projectText ul {
-        list-style: inside;
-        list-style-type: circle;
+        list-style: none;
     }
 }
 
@@ -38,8 +38,7 @@
     }
 
     .projectText ul {
-        list-style: inside;
-        list-style-type: circle;
+        list-style: none;
     }
 }
 
@@ -50,8 +49,7 @@
     }
 
     .projectText ul {
-        list-style: inside;
-        list-style-type: circle;
+        list-style: none;
     }
 }
 
@@ -62,8 +60,7 @@
     }
 
     .projectText ul {
-        list-style: inside;
-        list-style-type: circle;
+        list-style: none;
     }
 }
 
