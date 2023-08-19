@@ -13,9 +13,17 @@
 
 .gameplayImage {
     height: 300px;
-    /*margin-bottom: 3px;*/
     margin-top:10px;
     margin-bottom:10px;
+}
+
+.zoomableImage {
+    transition: transform 0.5s;
+    transform-origin: bottom center;
+}
+
+.zoomableImage:hover {
+    transform: scale(1.02, 1.02);
 }
 
 .emailLink {
