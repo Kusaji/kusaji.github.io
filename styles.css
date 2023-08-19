@@ -8,6 +8,7 @@
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    margin-bottom: 15px;
 }
 
 .gameplayImage {
@@ -28,6 +29,7 @@
 
     .projectText ul {
         list-style: none;
+        padding-left: 0;
     }
 }
 
@@ -39,6 +41,7 @@
 
     .projectText ul {
         list-style: none;
+        padding-left: 0;
     }
 }
 
@@ -50,6 +53,7 @@
 
     .projectText ul {
         list-style: none;
+        padding-left: 0;
     }
 }
 
@@ -61,12 +65,20 @@
 
     .projectText ul {
         list-style: none;
+        padding-left: 0;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .projectText {
         text-align: left;
-        text-decoration: none;
+    }
+
+    .projectText ul {
+        list-style: square;
+    }
+
+    h1.portfolio-title {
+        display: none;
     }
 }
