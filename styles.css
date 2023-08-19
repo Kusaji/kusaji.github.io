@@ -13,11 +13,51 @@
 
 .gameplayImage {
     height: 300px;
-    margin-bottom: 3px;
+    /*margin-bottom: 3px;*/
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 .link {
+    display: inline-block;
     text-decoration: none;
+    color: inherit;
+    border: solid #00155c 1px;
+    border-radius: 6px;
+    background-color: #003cff;
+    padding: 4px 12px;
+    line-height: 2;
+    font-size: 1.1em;
+    padding-top: 0;
+
+    transition: border 0.25s, background-color 0.25s;
+}
+
+.link svg {
+    fill: white;
+    height: 1em;
+  }
+
+.link:hover {
+    background-color: #3f6cff;
+    border-color: #001f85;
+}
+
+.sr-only {
+    display:none;
+}
+
+.link img.buttonIcon {
+    width: auto;
+    height: 1em;
+    -webkit-filter: drop-shadow(0 0 2px rgba(22, 22, 22, 0.6));
+    filter: drop-shadow(0 0 2px rgba(22, 22, 22, 0.6));
+    transition: 0.25s;
+}
+
+.link:hover img.buttonIcon {
+    -webkit-filter: drop-shadow(0 0 2px rgb(0, 255, 106));
+    filter: drop-shadow(0 0 2px rgb(0, 255, 106));
 }
 
 
