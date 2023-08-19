@@ -18,6 +18,16 @@
     margin-bottom:10px;
 }
 
+.emailLink {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.emailLink:hover {
+    text-decoration: underline;
+}
+
+
 .link {
     display: inline-block;
     text-decoration: none;
