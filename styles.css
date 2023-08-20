@@ -46,6 +46,13 @@
     text-decoration: underline;
 }
 
+.youtubeVideo {
+    position: relative !important;
+    min-height: 480px;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
 
 .link {
     display: inline-block;
